@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="logo" class="logo" />
+      <nav>
+        <div class="nav-links-box">
+          <ul class="nav-links">
+            <li class="nav-link features-link">
+              <a href="#" class="nav-list"
+                >Features
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="icon-arrow-down"
+                  class="icon-arrow-down"
+                />
+              </a>
+              <div id="list-items" class="features list-items">
+                <ul class="features-lists">
+                  <li>
+                    <img src="./images/icon-todo.svg" alt="todo list icon" /><a
+                      href="#"
+                      >Todo list</a
+                    >
+                  </li>
+                  <li>
+                    <img
+                      src="./images/icon-calendar.svg"
+                      alt="calendar icon"
+                    /><a href="#">Calendar</a>
+                  </li>
+                  <li>
+                    <img
+                      src="./images/icon-reminders.svg"
+                      alt="reminder icon"
+                    /><a href="#">Reminders</a>
+                  </li>
+                  <li>
+                    <img
+                      src="./images/icon-planning.svg"
+                      alt="planning icon"
+                    /><a href="#">Planning</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link company-link">
+              <a href="#" class="nav-list">
+                Company
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="icon-arrow-down"
+                  class="icon-arrow-down"
+              /></a>
+              <div id="list-items" class="company list-items">
+                <ul class="company-lists">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link list-items"><a href="#">Careers</a></li>
+            <li class="nav-link list-items"><a href="#"> About</a></li>
+          </ul>
+        </div>
+
+        <div class="login-accounts">
+          <ul class="login-items">
+            <li class="login-item"><a href="#">Login</a></li>
+            <li class="login-item register"><a href="#">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div>
+        <img
+          src="./images/icon-menu.svg"
+          alt="icon-menu"
+          class="mobile-nav-btn"
+        />
+        <img
+          src="./images/icon-close-menu.svg"
+          alt="close menue icon "
+          class="close-btn"
+        />
+      </div>
+    </header>
+    <main class="container">
+      <div class="left-section">
+        <h1>Make remote work</h1>
+        <div class="text-box">
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+        </div>
+        <div class="btn">
+          <button class="more-info-btn">Learn more</button>
+        </div>
+        <div class="logo-container">
+          <img
+            src="./images/client-databiz.svg"
+            alt="client logo"
+            class="client-logo"
+          />
+          <img
+            src="./images/client-audiophile.svg"
+            alt="client logo"
+            class="client-logo"
+          />
+          <img
+            src="./images/client-meet.svg"
+            alt="client logo"
+            class="client-logo"
+          />
+          <img
+            src="./images/client-maker.svg"
+            alt="client logo"
+            class="client-logo"
+          />
+        </div>
+      </div>
+      <div class="right-section">
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="hero image"
+          class="hero desktop"
+        />
+        <img
+          src="./images/image-hero-mobile.png"
+          alt="hero image"
+          class="hero mobile"
+        />
+      </div>
+    </main>
+    <div class="overlay"></div>
+    <!--      -->
+  </body>
+  <script src="./script.js"></script>
+</html>
